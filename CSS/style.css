@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+.head-container {
+  background-color: #e4f9f5;
+}
+
+h1 {
+  font-size: 6.625rem;
+  margin: 0 auto 0 auto;
+  padding-top: 10%;
+  font-family: "Mr De Haviland", cursive;
+  color: #66bfbf;
+}
+
+#head2 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #11999e;
+}
+
+.logo {
+  width: 5%;
+  transition: transform 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.menu {
+  background-color: #e4f9f5;
+  position: fixed;
+  top: 0px;
+  padding: 1% 3% 2% 3%;
+  transition: padding 400ms ease;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+nav.sticky {
+  padding: 0.5% 3%;
+  transition: padding 400ms ease;
+}
+
+.nav-link {
+  color: #11999e;
+}
+
+.nav-link:hover {
+  color: #40514e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mountain {
+  width: 70%;
+}
+
+#me {
+  width: 25%;
+  margin-top: 10%;
+  transition: transform 0.5s;
+}
+
+#me:hover {
+  transform: scale(1.1);
+}
+
+#hello {
+  margin-top: 5%;
+}
+
+.home-p {
+  margin-top: 3%;
+  width: 75%;
+  display: inline-block;
+}
+
+.separator {
+  width: 55%;
+  margin: 5%;
+}
+
+.skill-row1 {
+  margin-top: 10%;
+  transition: transform 900ms;
+  transform: translateX(3000px);
+}
+
+.skill-row2 {
+  margin-top: 10%;
+  transition: transform 900ms;
+  transform: translateX(-3000px);
+}
+
+.code {
+  width: 10%;
+  margin-top: 5%;
+}
+
+.text-box-1 {
+  padding-top: 6%;
+  width: 20%;
+}
+
+.dd-text {
+  width: 50%;
+}
+
+.separator2 {
+  width: 55%;
+  margin: 3%;
+}
+
+.bottom-container h2 {
+  margin-bottom: 2%;
+}
+
+.bottom-container h3 {
+  margin-bottom: 1%;
+}
+
+.bottom-container a {
+  color: #40514e;
+}
+
+.footer-low {
+  background-color: #e4f9f5;
+  margin: 10% 0 0 0;
+  padding: 2%;
+}
+
+.footer-link {
+  margin-top: 10%;
+  color: #40514e;
+}
